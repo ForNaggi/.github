@@ -1,0 +1,45 @@
+# ✅ Conventional Commits 기반 라벨 정의
+
+- name: "feat"
+  color: "0e8a16"  # 초록색 계열 – 새로운 기능
+  description: "새로운 기능을 추가합니다 (feat)"
+
+- name: "fix"
+  color: "d73a49"  # 빨강 계열 – 버그 수정
+  description: "버그를 수정합니다 (fix)"
+
+- name: "docs"
+  color: "0075ca"  # 파랑 계열 – 문서 관련
+  description: "문서를 수정하거나 보완합니다 (docs)"
+
+- name: "style"
+  color: "cfd3d7"  # 회색 계열 – 스타일 (문법/포맷)
+  description: "포맷, 세미콜론, 들여쓰기 등 스타일 변경 (style)"
+
+- name: "refactor"
+  color: "fbca04"  # 노랑 계열 – 구조 개선
+  description: "코드 리팩토링, 기능 변화 없는 구조 변경 (refactor)"
+
+- name: "perf"
+  color: "ff8c00"  # 주황 계열 – 성능 향상
+  description: "성능 최적화 또는 리소스 개선 (perf)"
+
+- name: "test"
+  color: "e99695"  # 연한 빨강 – 테스트 관련
+  description: "테스트 코드 추가 또는 수정 (test)"
+
+- name: "build"
+  color: "5319e7"  # 보라 계열 – 빌드 시스템
+  description: "빌드 시스템 또는 의존성 설정 변경 (build)"
+
+- name: "ci"
+  color: "17a2b8"  # 청록 계열 – CI/CD 설정
+  description: "CI/CD 설정 변경 또는 워크플로 조정 (ci)"
+
+- name: "chore"
+  color: "bfbfbf"  # 연한 회색 – 기타 작업
+  description: "잡일성 작업, 문서/의존성 정리 등 (chore)"
+
+- name: "revert"
+  color: "ff0000"  # 선명한 빨강 – 커밋 되돌리기
+  description: "이전 커밋을 되돌립니다 (revert)"

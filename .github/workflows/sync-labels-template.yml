@@ -1,0 +1,19 @@
+name: Shared Label Sync
+
+on:
+  workflow_call:
+    secrets:
+      GITHUB_TOKEN:
+        required: false
+
+jobs:
+  sync-labels:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Sync labels
+        uses: crazy-max/ghaction-github-labeler@v4
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          yaml-file: https://raw.githubusercontent.com/MakeChatStudy/.github/main/labels/labels.yml
+          skip-delete: false
+          delete-other-labels: true
