@@ -1,0 +1,16 @@
+# .github/workflows/pr-to-project.yml
+name: Add PR to Project
+
+on:
+  pull_request:
+    types: [opened]
+
+jobs:
+  add-to-project:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Add PR to project
+        uses: actions/add-to-project@v1
+        with:
+          project-url: https://github.com/orgs/MakeChatStudy/projects/6
+          github-token: ${{ secrets.GITHUB_TOKEN }}
