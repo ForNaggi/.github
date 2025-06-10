@@ -14,6 +14,6 @@ jobs:
         uses: crazy-max/ghaction-github-labeler@v4
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
-          yaml-file: https://raw.githubusercontent.com/MakeChatStudy/.github/main/labels/labels.yml
+          yaml-file: https://raw.githubusercontent.com/ForNaggi/.github/main/labels/labels.yml
           skip-delete: false
           delete-other-labels: true
