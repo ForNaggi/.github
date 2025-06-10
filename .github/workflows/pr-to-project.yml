@@ -12,5 +12,5 @@ jobs:
       - name: Add PR to project
         uses: actions/add-to-project@v1
         with:
-          project-url: https://github.com/orgs/MakeChatStudy/projects/6
+          project-url: https://github.com/orgs/ForNaggi/projects/6
           github-token: ${{ secrets.GITHUB_TOKEN }}
